@@ -8,7 +8,7 @@ import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import WelcomeMessage from './components/WelcomeMessage';
 import UserProfile from './components/UserProfile';
-import Counter from './components/counter';
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -45,6 +45,12 @@ function App() {
       <h1>Simple Counter App</h1>
       <Counter />
     </>
+  );
+  return (
+    <div>
+      <h1>Simple Counter App</h1>
+      <Counter />
+    </div>
   );
 }
 
